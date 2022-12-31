@@ -3,6 +3,9 @@
   --main-color: #2196f3;
   --main-color-alt: #1787e0;
   --main-transition: 0.3s;
+  --main-padding-top: 100px;
+  --main-padding-bottom: 100px;
+  --section-background: #ececec;
 }
 * {
   -webkit-box-sizing: border-box;
@@ -316,6 +319,14 @@ ul {
   animation: bouncing 1.5s infinite;
 }
 /* End Landing */
+/* Start Articles */
+.articles {
+  padding-top: var(--main-padding-top);
+  padding-bottom: var(--main-padding-bottom);
+  position: relative;
+}
+/* End Articles */
+
 /* Start Animation */
 @keyframes up-and-down {
   0%,
